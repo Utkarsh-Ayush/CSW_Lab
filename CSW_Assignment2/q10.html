@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 80px;
+            margin-left: 40%;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        div{
+            margin-left: 35%;
+            margin-right: 35%;
+            margin-top: 10%;
+            background-color: antiquewhite;
+            border-radius: 4px;
+        }
+        form{
+            padding: 20px;
+            width: 400px;
+            margin: 0 auto;
+        }
+        label{
+            margin-bottom: 10px;
+            
+            
+        }
+        input[type="text"]{
+            width: 380px;
+            height: 20px;
+        }
+        input[type="submit"] {
+            background-color: #f58181;
+           color: white;
+           border: none;
+           width:400px;
+           height: 30px;
+           border-radius:4px; 
+           cursor: pointer;
+        }
+        input[type="submit"]:hover{
+            background-color: rgb(237, 76, 58);
+            
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div>
+    <img src="https://images.squarespace-cdn.com/content/v1/57713a8e2994cae381dd86fe/1510405002757-FP2W9HV8ZA0HP2IF3O6A/SOA-PNG.png">
+    <h1>Regestration</h1>
+    <form>
+        <label for="name">UserName</label>
+        <input type="text" id="name" name="name" placeholder="Enter name...">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter email...">
+        <br><br>
+        <label for="mobile">Mobile</label>
+        <input type="text" id="number" name="number" placeholder="Enter MobileNo...">
+        <br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male">Male
+        
+        <input type="radio" id="female" name="gender" value="female">Female
+        <br><br>
+        <label for="city">City</label>
+        <select name="city" id="city">
+            <option value="">Select a city</option>
+            <option value="Bhubaneswar">Bhubaneswar</option>
+            <option value="Cuttack">Cuttack</option>
+            <option value="Puri">Puri</option>
+            <option value="Sambalpur">Sambalpur</option>
+            </select>
+            <br><br>
+        <input type="submit" value="Sign Up">
+    </form>
+</div>
+
+</body>
+</html>

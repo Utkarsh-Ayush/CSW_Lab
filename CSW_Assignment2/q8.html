@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        
+        body{
+            background-color: rgb(179, 213, 213);
+        }
+        form {
+            background-color: #9bede9;
+            border-radius: 5px;
+            padding: 20px;
+            width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #1904f9;
+        }
+        input[type="submit"] {
+            background-color: #5cc460;
+           color: white;
+           border: none;
+           border-radius:4px; 
+           cursor: pointer;
+        }
+        input[type="submit"]:hover{
+            background-color: rgb(40, 129, 30);
+            
+
+        }
+
+           
+       
+    </style>
+</head>
+<body>
+    <h1>Styled Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"> 
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email">
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="">Select a country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="France">France</option>
+            <option value="Japan">Japan</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
